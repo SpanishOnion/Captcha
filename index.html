@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+    <h3 onclick="this.nextElementSibling.src += '?'" style="cursor:pointer">点击切换图片</h3>
+    <!--利用JS更改图片的路径获取新图片 (根据以下两种url的形式 在路径后面增加?或者&) -->
+    <img src="./code.php" onclick="this.src += '?'">
+    <!--<img src="?c=user&a=code" onclick="this.src += '&'">-->
+</body>
+</html>
